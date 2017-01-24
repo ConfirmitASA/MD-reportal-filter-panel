@@ -1,6 +1,6 @@
 {
   "name": "MD-reportal-filter-panel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MD styles for native filter panel",
   "main": "styles.css",
   "repository": {
