@@ -58,12 +58,15 @@
 
 /* select2 styles */
 .select2-container{
+  &, & *{
+    font-size:13px;
+  }
   &> .select2-choices{
     background: transparent;
     border: 0;
     border-bottom: 1px solid var(--divider-color,rgba(18, 24, 33, .12));
 
-    &>.select2-search-choice{
+    &>.select2-search-choice:not(.select2-selected){
       display:flex;
       flex-direction: row;
       border: 0 !important;
