@@ -35,6 +35,25 @@
     font-weight:500 !important;
   }
 
+  & .fc-apply-button {
+    border-radius: var(--border-radius,2px);
+    min-width: 56px;
+    text-align: center;
+    padding: 0 16px;
+    line-height: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin:4px !important;
+    background-color: var(--default-accent-color,#2196f3) !important;
+    color: var(--text-primary-color,#FFF) !important;
+
+    &:hover{
+      background-color: var(--dark-accent-color,#2196f3) !important;
+      @apply --shadow-elevation-2dp;
+    }
+  }
+
 }
 
 /* select2 styles */
@@ -62,7 +81,7 @@
         font-size:12px;
         overflow: hidden;
         white-space: nowrap;
-        max-width: calc(100% - 24px);
+        max-width: calc(100% - 28px);
         text-overflow: ellipsis;
       }
     }
@@ -88,7 +107,7 @@
   &.select2-container-active> .select2-choices{
     box-shadow: none !important;
     border:0;
-    border-bottom: 1px solid var(--accent-color,#2196f3);
+    border-bottom: 1px solid var(--default-accent-color,#2196f3);
   }
 
 }
@@ -112,7 +131,7 @@
     }
 
     & .select2-highlighted{
-      background: var(--accent-color,#2196f3) !important;
+      background: var(--default-accent-color,#2196f3) !important;
 
       &>.select2-result-label{
         color: var(--text-primary-color,#ffffff) !important;
@@ -123,3 +142,4 @@
     }
   }
 }
+

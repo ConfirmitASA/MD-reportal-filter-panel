@@ -10,7 +10,7 @@ Please make sure you provide values for the ones that are undefined
 |`--filter-panel-width`   |240px         |
 |`--secondary-text-color:`|rgba(18, 24, 33, .54)|
 |`--divider-color`        |rgba(18, 24, 33, .12)|
-|`--accent-color`         |#2196f3       |
+|`--default-accent-color`         |#2196f3       |
 |`--text-primary-color`   |#ffffff       |
 |`--border-radius`        |**undefined!**|
 |`--shadow-elevation-2dp` |**undefined!**|
