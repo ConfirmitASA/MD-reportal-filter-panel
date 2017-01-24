@@ -47,10 +47,13 @@
     margin:4px !important;
     background-color: var(--default-accent-color,#2196f3) !important;
     color: var(--text-primary-color,#FFF) !important;
+    @apply --shadow-transition;
+    transition-property: color, box-shadow;
 
     &:hover{
       background-color: var(--dark-accent-color,#2196f3) !important;
       @apply --shadow-elevation-2dp;
+
     }
   }
 
